@@ -1,3 +1,4 @@
+# TODO(porsche): calcite labels /sys/devices/soc0 as vendor_sysfs_soc.
 type oplus_mdm_feature, domain;
 binder_use(oplus_mdm_feature)
 
@@ -10,7 +11,7 @@ allow oplus_mdm_feature vendor_reserve_partition:blk_file rw_file_perms;
 
 allow oplus_mdm_feature oplus_mdmfeature_device:chr_file rw_file_perms;
 
-allow oplus_mdm_feature vendor_sysfs_soc_sensitive:file r_file_perms;
+allow oplus_mdm_feature vendor_sysfs_soc:file r_file_perms;
 
 allow oplus_mdm_feature mnt_vendor_file:dir search;
 allow oplus_mdm_feature oplus_reserve_file_type:dir search;

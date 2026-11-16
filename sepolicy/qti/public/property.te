@@ -12,3 +12,7 @@ system_public_prop(system_oplus_touch_prop)
 
 # Version
 system_vendor_config_prop(system_oplus_project_prop)
+
+# TODO(porsche): calcite does not declare the A17 NXP config-selector property.
+# Export this vendor-owned read-only-to-core property for the eSIM UI and HAL.
+vendor_restricted_prop(vendor_persist_nfc_prop)
