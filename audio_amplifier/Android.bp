@@ -25,14 +25,14 @@ cc_library_shared {
             "hardware/qcom-caf/sm8250/audio/hal/msm8974",
         ],
         "holi": [
-            "hardware/qcom-caf/sm8350/audio/hal",
-            "hardware/qcom-caf/sm8350/audio/hal/audio_extn",
-            "hardware/qcom-caf/sm8350/audio/hal/msm8974",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal/audio_extn",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal/msm8974",
         ],
         "lahaina": [
-            "hardware/qcom-caf/sm8350/audio/hal",
-            "hardware/qcom-caf/sm8350/audio/hal/audio_extn",
-            "hardware/qcom-caf/sm8350/audio/hal/msm8974",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal/audio_extn",
+            "vendor/qcom/opensource/audio-hal/primary-hal/hal/msm8974",
         ],
         "lito": [
             "hardware/qcom-caf/sm8250/audio/hal",
